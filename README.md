@@ -20,8 +20,8 @@ Required tools:
 * unscrew all 3 nuts using bent pliers
 * remove all 4 screws at the back using the Torx screwdriver
 * remove the plastic cover at the top of the back side of the radio
-* pry the metal chassis out of the radio using a flat screwdriver. Be careful: pull gently, as the mainboard is connected to
-a speaker
+* pry the metal chassis out of the radio using a flat screwdriver at the bottom. Be careful: pull gently, as the mainboard is connected to
+the speaker glued to the plastic front of the radio
 * remove all the screws (about 10, including 2 holding the display's frame, all with Philips heads)
 * release the display ribbon by pulling out the plastic latch towards the screen and disconnect it from the PCB
 * remove solder from the pad holding the antenna connector's center pin in place
