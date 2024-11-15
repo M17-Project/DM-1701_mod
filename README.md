@@ -14,7 +14,7 @@ Required tools:
 * soldering iron and its friends: solder, solder wick, flux
 * some patience
 
-<br>1. Disassemble the radio
+<br>1. **Disassemble the radio.**
 * unscrew the antenna
 * remove both knobs located at the top of the unit by pulling them upwards (using a flat screwdriver can help here)
 * unscrew all 3 nuts using bent pliers
@@ -27,32 +27,31 @@ a speaker
 * remove solder from the pad holding the antenna connector's center pin in place
 * separate the PCB from the aluminum chassis
 
-At this point you should have gained access to both sides of the mainboard. Now the fun begins, so buckle up and let's go.
-
-2. Connect MCU's pin 18 with AT1846's pin 9<br>
+At this point you should have gained access to both sides of the mainboard. Now the fun begins, so buckle up and let's go.<br>
+<br>2. **Connect MCU's pin 18 with AT1846's pin 9.**<br>
 Using a piece of Kynar wire, simply connect these two pins together.
 ![Kynar](./img/1.jpg)
 
-3. Note where the Kynar wire goes and, using a triangular file, make a small groove in the aluminum chassis.<br>
+<br>3. **Note where the Kynar wire goes and, using a triangular file, make a small groove in the aluminum chassis.**<br>
 Be sure to remove all the metal dust, as it may cause problems (shorts). Disregard the three large round holes, they are not required.
 ![Groove](./img/2.jpg)
 
-4. Remove two SMD resistors and a capacitor just next to them<br>
+<br>4. **Remove two SMD resistors and a capacitor just next to them.**<br>
 Short the pads shown in the photo and mount a 1.5nF capacitor. If 0805 size capacitor is used, mount it on its side.
 Scraping off some soldermask might be required, as there's little space available.
 ![Cap and resistor](./img/3.jpg)
 
-6. Short the resistor shown and remove the capacitor next to it.
+<br>5. **Short the resistor shown and remove the capacitor next to it.**
 ![More caps and resistors](./img/4.jpg)
 
-7. Remove two capacitors and a dual diode in SOT-23. Short out pads as shown below.<br>
+<br>6. **Remove two capacitors and a dual diode in SOT-23. Short out pads as shown below.**<br>
 Use a 200k resistor to connect one of the resistors with a capacitor close to it.
 ![Mic part](./img/5.jpg)
 
-8. Remove the capacitor close to the HR_C6000 chip.
+<br>7. **Remove the capacitor close to the HR_C6000 chip.**
 ![Lone cap](./img/6.jpg)
 
-9. Re-assemble the radio.<br>
+<br>8. **Re-assemble the radio.**<br>
 Test the connections and clean all the flux residual, if necessary. Reverse the procedure from point **1**.
 Make sure the groove in the chassis is in the right place, otherwise the chassis might pinch the wire's insulation and cause problems.
 
