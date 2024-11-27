@@ -36,7 +36,7 @@ Using a piece of Kynar wire, simply connect these two pins together.
 Be sure to remove all the metal dust, as it may cause problems (shorts). Disregard the three large round holes, they are not required.
 ![Groove](./img/2.jpg)
 
-<br>4. **Remove two SMD resistors and a capacitor just next to them.**<br>
+<br>4. **Remove two SMD capacitors and a resistor just next to them.**<br>
 Short the pads shown in the photo and mount a 1.5nF capacitor. If 0805 size capacitor is used, mount it on its side.
 Scraping off some soldermask might be required, as there's little space available.
 ![Cap and resistor](./img/3.jpg)
