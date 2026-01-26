@@ -1,6 +1,10 @@
 # DM-1701_mod
 A modification guide for the [Baofeng DM-1701](https://www.baofengradio.com/products/dm-1701) dual-band, 5W DMR radio, enabling M17 support.
 
+> [!TIP]
+> **An extended version of this procedure with extra photos and details can be found at Michael DK1MI's blog:**<br>
+> https://rz01.org/m17-dm1701-mod
+
 ## Overview
 The modification requires adding a 200k resistor (220k is fine too), a 1.5nF capacitor (1nF is fine too; both SMD, 0805 size is perfect) and a piece of Kynar wire.
 
@@ -57,8 +61,9 @@ Make sure the groove in the chassis is in the right place, otherwise the chassis
 
 ## Flashing with OpenRTX
 > [!WARNING]
-> Keep in mind that the DM-1701 support is still under active development and might not offer all M17 and/or device's functionalities.
+> **Keep in mind that the DM-1701 support is still under active development and might not offer all M17 and/or device's functionalities.**
 
 Flashing process is straightforward and is the same as for any other OpenRTX supported handheld transceivers.
 Under Linux, it is possible to use [a handy Bash script](https://gist.github.com/sp5wwp/bd1890cebab4ae7e5bd3ae052f3d4f5d) to do the task. Windows - WIP.
 Please visit the OpenRTX project's homepage at [openrtx.org](https://openrtx.org) for more details.
+
